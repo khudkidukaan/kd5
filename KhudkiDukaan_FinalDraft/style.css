@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Foundation&display=swap');
+
+*{
+  margin:0;
+  padding:0;
+}
+
+body{
+  background-color:#dfe4ed;
+}
+
+.header{
+  width:100%;
+  overflow:hidden;
+  background-color:#6682b0;
+  padding:5%;
+}
+
+.header h1{
+  font-size:40px;
+  font-family: 'Edu NSW ACT Foundation', cursive;
+  text-align:center;
+  color:#dfe4ed;
+}
+
+.header h3{
+  font-size:20px;
+  font-family: 'Edu NSW ACT Foundation', cursive;
+  text-align:center;
+  color:#dfe4ed;
+}
+
+.navbar{
+  width:100%;
+  padding:2%;
+  background-color:#333;
+  position:sticky;
+  position:-webkit-sticky;
+  vertical-align:center;
+  cursor:pointer;
+}
+
+.navbar a{
+  color:white;
+  text-align:center;
+  vertical-align:center;
+  display:block;
+  padding:1px 20px;
+  float:left;
+  text-decoration:none;
+}
+
+.navbar a:hover{
+  background-color:#636c7a;
+}
+
+.navabar a.right{
+  float:right;
+}
+
+#modalSearchBtn{
+  padding:1px;
+  height:1%;
+  width:5%;
+}
+
+#modalSearchCointaner{
+  display:none;
+  height:60%;
+  width:40%;
+  padding:5px;
+  z-index:1;
+  background-color:#333;
+  position:fixed;
+}
+
+h1.firstHeading{
+  font-family: 'Edu NSW ACT Foundation';
+  font-size:30px;
+  color:#333;
+  text-align:center;
+}
+
+h3.firstH3{
+  font-family: 'Edu NSW ACT Foundation';
+  font-size:15px;
+  color:#333;
+  text-align:center;
+}
+
+div.footer{
+  height:10%;
+  width:100%;
+  overflow:hidden;
+  background-color:#dfe4ed;
+  display:block;
+}
